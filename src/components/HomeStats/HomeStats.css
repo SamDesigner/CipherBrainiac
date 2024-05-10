@@ -1,0 +1,12 @@
+.stat_bg{
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #e5975b, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #e5975b, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.gradient_text {
+    background: linear-gradient(to top, #ac632c, #177b82);
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the original text color */
+  }
+  
