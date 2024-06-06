@@ -9,7 +9,8 @@ export default {
       colors:{
         primaryOrange:'#e5975b',
         specialBrown:'#e5975b',
-        darkerBrown:'#bb6e33'
+        darkerBrown:'#bb6e33',
+        showcaseBg:'#36D1DC'
       }
     },
   },

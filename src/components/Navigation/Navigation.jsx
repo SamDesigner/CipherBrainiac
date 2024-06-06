@@ -3,6 +3,7 @@ import './Navigation.css'
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCancelCircle } from "react-icons/im";
 import { useState } from 'react';
+import {Link} from 'react-router-dom'
 import {motion} from 'framer-motion'
 const Navigation = () => {
   const [isOpen , setIsOpen] = useState(false)
@@ -16,7 +17,7 @@ const Navigation = () => {
                 <h1 className='font-bold'>C<span className='text-red-700'>I</span>B</h1>
             </div>
             <ul className='hidden lg:flex items-center gap-[22px] text-[18px]'>
-                <li>Home</li>
+                <li><Link to='/'>Home</Link></li>
                 <li>About</li>
                 <li>Testimonial</li>
                 <li>Classroom</li>

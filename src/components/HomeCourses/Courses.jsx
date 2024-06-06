@@ -4,6 +4,7 @@ import BeginnerFE from '../../assets/images/BeginnerFE.png'
 import ProjectMg from '../../assets/images/projectManagement.jpg'
 import LinkedIn from '../../assets/images/linkedIn.jpg'
 import JavaScript from '../../assets/images/JS.jpg'
+import {Link} from 'react-router-dom'
 import { FaCirclePlus } from "react-icons/fa6";
 const Courses = () => {
   return (
@@ -17,6 +18,9 @@ const Courses = () => {
                 <p>Level: <span>Beginner</span></p>
                 <p>Duration: <span>3 months</span></p>
             </div>
+            <div className='p-[20px]'>
+                <Link to='/projectmanagement' className='special_bg py-2 px-3 rounded-full'>view more</Link>
+            </div>
         </div>
         <div className='shadow-2xl'>
             <div className='h-[250px] w-full rounded-tl-[20px] rounded-tr-[20px]'>
@@ -27,6 +31,9 @@ const Courses = () => {
                 <p>Level: <span>Advanced</span></p>
                 <p>Duration: <span>3 months</span></p>
             </div>
+            <div className='p-[20px]'>
+                <Link to='/projectmanagement' className='special_bg py-2 px-3 rounded-full'>view more</Link>
+            </div>
         </div>
         <div className='shadow-2xl'>
             <div className='h-[250px] w-full rounded-tl-[20px] rounded-tr-[20px]'>
@@ -35,7 +42,10 @@ const Courses = () => {
             <div className='p-[20px]'>
                 <h1 className='text-[20px] font-[500] gradient_text'>Project Management</h1>
                 <p>Level: <span>Beginner</span></p>
-                <p>Duration: <span>3 months</span></p>
+                <p>Duration: <span>2 months</span></p>
+            </div>
+            <div className='p-[20px]'>
+                <Link to='/projectmanagement' className='special_bg py-2 px-3 rounded-full'>view more</Link>
             </div>
         </div>
         <div className='shadow-2xl'>
@@ -47,6 +57,9 @@ const Courses = () => {
                 <p>Level: <span>Beginner</span></p>
                 <p>Duration: <span>3 months</span></p>
             </div>
+            <div className='p-[20px]'>
+                <Link to='/projectmanagement' className='special_bg py-2 px-3 rounded-full'>view more</Link>
+            </div>
         </div>
         <div className='shadow-2xl'>
             <div className='h-[250px] w-full rounded-tl-[20px] rounded-tr-[20px]'>
@@ -56,6 +69,9 @@ const Courses = () => {
                 <h1 className='text-[20px] font-[500] gradient_text'>JavaScript For Web</h1>
                 <p>Level: <span>Beginner</span></p>
                 <p>Duration: <span>3 months</span></p>
+            </div>
+            <div className='p-[20px]'>
+                <Link to='/projectmanagement' className='special_bg py-2 px-3 rounded-full'>view more</Link>
             </div>
         </div>
         <div className='shadow-2xl rounded-tr-[20px] rounded-tl-[20px]  flex flex-col gap-[15px] items-center justify-center cursor-pointer bg-blue-100 text-blue-300'>
