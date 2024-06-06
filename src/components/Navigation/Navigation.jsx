@@ -14,7 +14,7 @@ const Navigation = () => {
     <header className='max-w-[1440px] mx-auto px-[16px] lg:px-[80px]'>
         <nav className='flex justify-between items-center py-[10px]'>
             <div className='text-[40px]'>
-                <h1 className='font-bold'>C<span className='text-red-700'>I</span>B</h1>
+                <Link to='/' className='font-bold'>C<span className='text-red-700'>I</span>B</Link>
             </div>
             <ul className='hidden lg:flex items-center gap-[22px] text-[18px]'>
                 <li><Link to='/'>Home</Link></li>

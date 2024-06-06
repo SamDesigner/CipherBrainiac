@@ -2,14 +2,18 @@ import React from 'react'
 import ContactImage from '../../assets/images/contact.png'
 const Contact = () => {
   return (
-    <div className='px-[16px] py-[50px] lg:py-[0px] lg:px-[80px]  max-w-[1440px] mx-auto bg-gray-100'> 
+    <div className='overflow-x-hidden px-[16px] py-[50px] lg:py-[0px] lg:px-[80px]  max-w-[1440px] mx-auto bg-gray-100'> 
         <div className='flex flex-col md:flex-row '>
-            <div className='flex-1'>
+            <div 
+            data-aos="fade-right"
+            className='flex-1'>
                 <div className='h-full '>
                     <img className='h-full' src={ContactImage} />
                 </div>
             </div>
-            <div className='flex-1 flex justify-center items-center'>
+            <div 
+            data-aos="fade-left"
+            className='flex-1 flex justify-center items-center'>
                 <div className='lg:w-[500px] mx-auto flex flex-col justify-center gap-[20px] '>
                     <div>
                         <h1 className='text-[40px] gradient_text'>Send us a mail</h1>

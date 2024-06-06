@@ -1,9 +1,14 @@
 import React from "react";
-import Line from '../../assets/svg/line.svg'
+import Line from "../../assets/svg/line.svg";
 const HomeEmpowerment = () => {
   return (
-    <div className="max-w-[1440px] bg-gray-100 mx-auto px-[16px] lg:px-[80px] py-[80px] md:py-[100px] flex flex-col gap-[40px] md:gap-[80px]">
-      <div className="flex flex-col items-center">
+    <div className="max-w-[1440px] overflow-x-hidden bg-gray-100 mx-auto px-[16px] lg:px-[80px] py-[80px] md:py-[100px] flex flex-col gap-[40px] md:gap-[80px]">
+      <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        className="flex flex-col items-center"
+      >
         <h4 className="text-red-700">About the Programme</h4>
         <h1 className="text-[25px] md:text-[40px] md:w-[600px] text-center font-[600]">
           CIB Student Empowerment Programme
@@ -14,50 +19,85 @@ const HomeEmpowerment = () => {
           <h3 className="text-red-600">Benefits</h3>
 
           <div className="flex flex-col gap-[20px] relative ">
-          <div className="absolute">
-            <img src={Line} className="w-[200px] h-[100%]" />
-          </div>
-            <div className="absolute right-4">
-                <img src={Line} className="w-[200px] h-[100%]" />
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="2000"
+              className="absolute"
+            >
+              <img src={Line} className="w-[200px] h-[100%]" />
             </div>
-            <div className="bg-specialBrown z-20 p-2 rounded-tr-[30px] rounded-br-[30px] flex items-center gap-[10px]">
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="2000"
+              className="absolute right-4"
+            >
+              <img src={Line} className="w-[200px] h-[100%]" />
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-duration="2000"
+              className="bg-specialBrown z-20 p-2 rounded-tr-[30px] rounded-br-[30px] flex items-center gap-[10px]"
+            >
               <div className="bg-white h-[50px] w-[50px] rounded-full text-[20px] lg:text-[23px] font-bold flex items-center justify-center">
                 0<span className="text-red-600">1</span>
               </div>
               <div className="text-[20px] lg:text-[25px] font-[500]">
-                 Beginner friendly Courses
+                Beginner friendly Courses
               </div>
             </div>
-            <div className="bg-specialBrown z-20  p-2 rounded-tr-[30px] rounded-br-[30px] flex items-center gap-[10px]">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="600"
+              data-aos-duration="2000"
+              className="bg-specialBrown z-20  p-2 rounded-tr-[30px] rounded-br-[30px] flex items-center gap-[10px]"
+            >
               <div className="bg-white h-[50px] w-[50px] rounded-full text-[20px] lg:text-[23px] font-bold flex items-center justify-center">
                 0<span className="text-red-600">2</span>
               </div>
               <div className="text-[20px] lg:text-[25px] font-[500]">
-                 Experienced Tutors
-              </div>  
+                Experienced Tutors
+              </div>
             </div>
-            <div className="bg-specialBrown z-20  p-2 rounded-tr-[30px] rounded-br-[30px] flex items-center gap-[10px]">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="700"
+              data-aos-duration="2000"
+              className="bg-specialBrown z-20  p-2 rounded-tr-[30px] rounded-br-[30px] flex items-center gap-[10px]"
+            >
               <div className="bg-white h-[50px] w-[50px] rounded-full text-[20px] lg:text-[23px] font-bold flex items-center justify-center">
                 0<span className="text-red-600">3</span>
               </div>
               <div className="text-[20px] lg:text-[25px] font-[500]">
-                 Quality Contents & Webinars
-              </div>  
+                Quality Contents & Webinars
+              </div>
             </div>
-            <div className="bg-specialBrown z-20   p-2 rounded-tr-[30px] rounded-br-[30px] flex items-center gap-[10px]">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="800"
+              data-aos-duration="2000"
+              className="bg-specialBrown z-20   p-2 rounded-tr-[30px] rounded-br-[30px] flex items-center gap-[10px]"
+            >
               <div className="bg-white h-[50px] w-[50px] rounded-full text-[20px] lg:text-[23px] font-bold flex items-center justify-center">
                 0<span className="text-red-600">4</span>
               </div>
               <div className="text-[20px] lg:text-[25px] font-[500]">
                 Certification & Internship Opportunties
-              </div>  
+              </div>
             </div>
           </div>
         </div>
         <div className="flex-1 flex flex-col gap-[15px]">
-          <h3 className="text-red-600">Our Purpose</h3>
+          <h3 
+          data-aos="fade-left"
+          className="text-red-600">Our Purpose</h3>
           <div className="flex flex-col gap-[20px]">
-            <p className="text-gray-500 text-justify leading-[30px]">
+            <p 
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            className="text-gray-500 text-justify leading-[30px]">
               Here's the updated text with your addition: "The CIB Student
               Empowerment initiative by Cipher Brainiac is designed to guide
               university students towards acquiring technical and creative
@@ -69,7 +109,12 @@ const HomeEmpowerment = () => {
               internship aligns with your skills, allowing you to apply and
               showcase your learning effectively."
             </p>
-            <button className="special_bg w-fit px-[40px] cursor-pointer py-[10px] rounded-3xl">Courses</button>
+            <button 
+            data-aos="fade-left"
+            data-aos-delay='300'
+            className="special_bg w-fit px-[40px] cursor-pointer py-[10px] rounded-3xl">
+              Courses
+            </button>
           </div>
         </div>
       </div>

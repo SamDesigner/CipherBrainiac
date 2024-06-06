@@ -7,19 +7,34 @@ import Whatsapp from '../../assets/images/whatsapp.png'
 const HomeSocials = () => {
   return (
     <div className='bg-white flex items-center justify-center gap-[30px] py-[50px]'>
-        <div className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
+        <div 
+        data-aos="zoom-in"
+        data-aos-delay="300"
+        className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
             <img className='h-full w-full' src={Facebook} />
         </div>
-        <div className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
+        <div 
+        data-aos="zoom-in"
+        data-aos-delay="500"
+        className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
             <img className='h-full w-full' src={LinkedIn} />
         </div>
-        <div className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
+        <div 
+        data-aos="zoom-in"
+        data-aos-delay="700"
+        className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
             <img className='h-full w-full' src={gmail} />
         </div>
-        <div className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
+        <div 
+        data-aos="zoom-in"
+        data-aos-delay="800"
+        className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
             <img className='h-full w-full' src={Instagram} />
         </div>
-        <div className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
+        <div 
+        data-aos="zoom-in"
+        data-aos-delay="800"
+        className='h-[30px] w-[30px] md:h-[50px] md:w-[50px]'>
             <img className='h-full w-full' src={Whatsapp} />
         </div>
     </div>

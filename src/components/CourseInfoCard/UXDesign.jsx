@@ -28,7 +28,48 @@ const UXDesign = () => {
                                 <FaHandPointRight />
                             </div>
                             <p>
-                                <b>HTML (HyperText Markup Language):</b> Structure of a webpage, tags, attributes, Semantic HTML, forms, tables, multimedia elements.
+                                <b>Wireframing:</b> Sketching basic layouts to plan out the structure and navigation of a design.
+                            </p>
+                        </div>
+
+                        <div className='flex gap-[10px]'>
+                            <div className='text-red-600'>
+                                <FaHandPointRight />
+                            </div>
+                            <p>
+                                <b>User Interface Design:</b> Focusing on creating visually appealing and functional interfaces.Understanding of design patterns and UI components.
+                            </p>
+                        </div>
+                        <div className='flex gap-[10px]'>
+                            <div className='text-red-600'>
+                                <FaHandPointRight />
+                            </div>
+                            <p>
+                                <b>User Research:</b>Conducting surveys, interviews, and usability testing.Understanding user personas and journey mapping.
+                            </p>
+                        </div>
+                        <div className='flex gap-[10px]'>
+                            <div className='text-red-600'>
+                                <FaHandPointRight />
+                            </div>
+                            <p>
+                                <b>Responsive Design:</b> Designing for various devices and screen sizes.Knowledge of media queries and grid systems.
+                            </p>
+                        </div>
+                        <div className='flex gap-[10px]'>
+                            <div className='text-red-600'>
+                                <FaHandPointRight />
+                            </div>
+                            <p>
+                                <b>Typography & Color Theory:</b> Understanding font pairing, readability, and how typography affects design.Using color effectively to evoke emotions and create visual harmony.
+                            </p>
+                        </div>
+                        <div className='flex gap-[10px]'>
+                            <div className='text-red-600'>
+                                <FaHandPointRight />
+                            </div>
+                            <p>
+                                <b>Layout and Composition:</b> Grasping concepts like grid systems, alignment, spacing, and balance.
                             </p>
                         </div>
                     </div>
